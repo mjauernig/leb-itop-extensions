@@ -1,2 +1,7 @@
 # leb-itop-extensions
-My extensions for Combodo's iTop
+
+# Content
+
+1. ldap / active directory synchronization script
+1. data model extensions
+   
