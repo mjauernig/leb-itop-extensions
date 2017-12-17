@@ -10,8 +10,8 @@ Be carefull, in existing installations! The sync-process creates for every user 
 
 1. The script searches for all user (category person) in the ldap directory.
 1. Then the script do two checks
-   1. Is the user in the ldap-group which should be synchronized
-   1. Are the reuired fields of itop (firstname, surname, company) are given.
+   1. Is the user in the ldap-group, which should be synchronized?
+   1. Are the reuired fields of itop (firstname, surname, company) are given?
 1. Are both checks valid, the script insert or update the person object into the synchronization table.
 1. Then you have to trigger the itop build-in syncho-script to execute the indeed synchronization.
 
